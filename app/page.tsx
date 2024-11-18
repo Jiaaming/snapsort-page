@@ -14,13 +14,22 @@ export default function Home() {
           priority
         />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
+        <li className="mb-2">
+            Open your terminal.
+          </li>
           <li className="mb-2">
             Get started by:{""}
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              `pip install snapsort`
+              `pip install cli-snapsort`
             </code>
             .
           </li>
+            <li className="mb-2">
+            Navigate to your target photos folder using: 
+            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
+              `cd ..`
+            </code>
+            </li>
           <li>Run your command: 
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
               `snapsort &lt;cmd&gt; ...`
